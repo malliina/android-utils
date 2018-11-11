@@ -10,3 +10,4 @@ libraryDependencies ++= Seq("com.malliina" %% "util-android" % "0.12.3-SNAPSHOT"
 platformTarget in Android := "android-27"
 useProguard in Android := true
 libraryProject := true
+typedResourcesAar := true

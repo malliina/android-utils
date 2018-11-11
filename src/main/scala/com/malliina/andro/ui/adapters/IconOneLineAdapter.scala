@@ -2,7 +2,7 @@ package com.malliina.andro.ui.adapters
 
 import android.content.Context
 import android.view.View
-import com.mle.andro.{R, TR}
+import com.malliina.andro.{R, TR}
 
 /** An adapter for items with one icon and one text view.
   *

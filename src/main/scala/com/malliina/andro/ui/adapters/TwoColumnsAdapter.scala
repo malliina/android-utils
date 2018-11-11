@@ -1,7 +1,7 @@
 package com.malliina.andro.ui.adapters
 
 import android.content.Context
-import com.mle.andro.R
+import com.malliina.andro.R
 
 /** Adapter in which each row contains two columns of text.
   *

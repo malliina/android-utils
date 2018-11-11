@@ -2,7 +2,7 @@ package com.malliina.andro.ui.adapters
 
 import android.content.Context
 import android.view.View
-import com.mle.andro.TR
+import com.malliina.andro.TR
 
 class StaticIconOneLineAdapter(ctx: Context, layout: Int, items: Seq[TwoPartItem])
   extends IconOneLineAdapter[TwoPartItem](ctx, layout, items) {
