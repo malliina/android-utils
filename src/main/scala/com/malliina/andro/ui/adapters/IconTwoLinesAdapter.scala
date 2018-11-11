@@ -1,14 +1,11 @@
-package com.mle.andro.ui.adapters
+package com.malliina.andro.ui.adapters
 
 import android.content.Context
 import android.view.View
-import com.mle.andro.{TR, R}
+import com.mle.andro.{R, TR}
 
-/**
- * An adapter for items with one icon and two text views.
- *
- * @author mle
- */
+/** An adapter for items with one icon and two text views.
+  */
 abstract class IconTwoLinesAdapter[T](ctx: Context, items: Seq[T])
   extends IconOneLineAdapter[T](ctx, R.layout.icon_twolines_item, items) {
 

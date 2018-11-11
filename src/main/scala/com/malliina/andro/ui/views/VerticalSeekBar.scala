@@ -1,4 +1,4 @@
-package com.mle.andro.ui.views
+package com.malliina.andro.ui.views
 
 import android.content.Context
 import android.graphics.Canvas
@@ -7,14 +7,11 @@ import android.view.MotionEvent
 import android.widget.SeekBar
 import android.widget.SeekBar.OnSeekBarChangeListener
 
-/**
- * This view has a bug: the seekbar "ball" goes to zero if the seekbar value is changed
- * programmatically. The bar itself displays the correct height.
- *
- * http://stackoverflow.com/questions/4892179/how-can-i-get-a-working-vertical-seekbar-in-android
- *
- * @author mle
- */
+/** This view has a bug: the seekbar "ball" goes to zero if the seekbar value is changed
+  * programmatically. The bar itself displays the correct height.
+  *
+  * @see http://stackoverflow.com/questions/4892179/how-can-i-get-a-working-vertical-seekbar-in-android
+  */
 class VerticalSeekBar(context: Context, attrs: AttributeSet, defaultStyle: Int)
   extends SeekBar(context, attrs, defaultStyle) {
 

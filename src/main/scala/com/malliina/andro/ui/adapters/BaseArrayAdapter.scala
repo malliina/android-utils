@@ -1,4 +1,4 @@
-package com.mle.andro.ui.adapters
+package com.malliina.andro.ui.adapters
 
 import android.content.Context
 import android.view.{LayoutInflater, ViewGroup, View}
@@ -6,10 +6,6 @@ import android.widget.ArrayAdapter
 import collection.JavaConversions._
 import com.mle.andro.TypedResource
 
-/**
- *
- * @author mle
- */
 abstract class BaseArrayAdapter[T](ctx: Context, layoutResourceId: Int, val items: Seq[T])
   extends ArrayAdapter[T](ctx, layoutResourceId, items) {
 
