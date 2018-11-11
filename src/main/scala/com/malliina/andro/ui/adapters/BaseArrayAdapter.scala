@@ -26,9 +26,6 @@ abstract class BaseArrayAdapter[T](ctx: Context, layoutResourceId: Int, val item
     rowView
   }
 
-  protected def findView(parent: View, childID: Int) =
-    parent.findViewById(childID)
-
   protected def findTypedView[R <: View](parent: View, typedResource: TypedResource[R]) =
     parent.findViewById[R](typedResource.id)
 }
